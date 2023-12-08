@@ -7,27 +7,28 @@
             Singleton (obiektowy); - może istnieć maksymalnie 1 obiekt danego typu i jest ogólnodostępny
 
     wzorce strukturalne:
-        Adapter (klasowy oraz obiektowy),
-        Dekorator (obiektowy),
-        Pełnomocnik (obiektowy),
-        Kompozyt (obiektowy),
-        Pyłek (obiektowy);
-        Fasada (obiektowy),
-        Most (obiektowy),
+        Adapter (klasowy oraz obiektowy), dopasowanie obiektu pod niepasujący interfejs bez modyfikowania klasy (nie zmienia działania)
+        Dekorator (obiektowy), osobna klasa na nową funkcje, można je ze sobą łączyć w runtime  (rozszerza działanie - alternatywa dla dziedziczenia)
+        Pełnomocnik - proxy (obiektowy), opakowuje obiekt aby wykonywać dodatkowe opracje przy okazji dla optymalizacji bezpieczenstwa statystyk itp.
+        Kompozyt (obiektowy), ujednolicenie dostępu do zgrupowanych obiektów oraz pojedynczych obiektów.
+        Pyłek (obiektowy), oszczędza pamięć poprzez oddzielenie wspólnego stanu wielu obiektów i zarządzanie ich składaniem przez dedykowaną klasę
+        Most (obiektowy), dwie hierarchie dziedziczenie z których ogólny obiekt jednej posiada referencje do ogólnego obiektu drugiej.
+                                Oferuje dużą elastyczność i rozdział między abstrakcją i implentacją. (UML)
+        Fasada (obiektowy),uproszczenie korzystania ze skomplikowanego systemu (wiele obiektów)
 
     wzorce czynnościowe/operacyjne:
-        Łańcuch zobowiązań/odpowiedzialności (obiektowy),
-        Polecenie (obiektowy),
-        Interpreter (klasowy),
         Iterator (obiektowy),
-        Mediator (obiektowy),
-        Pamiątka/Memento (ang. Memento) (obiektowy),
         Metoda szablonowa (ang. template method) (klasowy),
-            Obserwator (obiektowy)  - obiekt generujący dane (zdazenia) informuje o nich zainteresowanych klientów
         Stan (obiektowy),
         Strategia (obiektowy),
+        Łańcuch zobowiązań/odpowiedzialności (obiektowy),
+                 Interpreter (klasowy), traktowanie tekstu jako komend do wykonania pewnych operacji
+        Mediator (obiektowy),
+        Pamiątka/Memento (ang. Memento) (obiektowy),
+            Obserwator (obiektowy)  - obiekt generujący dane (zdazenia) informuje o nich zainteresowanych klientów
         Odwiedzający/Wizytator (ang. visitor) (obiektowy),
-        Zabór Zasobu Jest Inicjalizacją (obiektowy).
+        Polecenie (obiektowy),
+
 
 
 -> klasyczny builder
