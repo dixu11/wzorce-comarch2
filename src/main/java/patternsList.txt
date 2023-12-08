@@ -21,8 +21,9 @@
         Metoda szablonowa (ang. template method), pozwala nam przygotować abstrakcyjną klasę bazową z ogólnym schematem
                                                                 algorytmu który odnosi się do abstrakcyjnych metod
                            dzięki czemu możemy nadpisywać zmienne kroki algorytmu na różne sposoby w jego kolejnych implementacjach
-        Strategia (obiektowy),
-        Stan (obiektowy),
+                Strategia - umożliwia zmienianie działania metody obiektu przez przeniesienie tego działania do obiektów strategii i
+                            możemy przełączyć się między nimi przestawiając te strategie w runtime
+             Stan (obiektowy), - kilka alternatywnych implementacji między którymi możemy przełączyć obiekt w reakcji na zdarzenia
         Łańcuch zobowiązań/odpowiedzialności (obiektowy),
                  Interpreter (klasowy), traktowanie tekstu jako komend do wykonania pewnych operacji
         Mediator (obiektowy),
