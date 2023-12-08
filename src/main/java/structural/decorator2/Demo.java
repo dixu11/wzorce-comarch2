@@ -7,7 +7,7 @@ public class Demo {
         * Nie możesz modyfikować kodu main ani istniejących klas. Możesz wyłącznie dokładać własne, powodzenia!
         * */
 
-       /*
+
         CalculatorFactory factory = new CalculatorFactoryImpl();
 
         Calculator standardCalculator = factory.getStandardCalculator();
@@ -28,10 +28,10 @@ public class Demo {
         //ma drukować: 2 + 3 = 5
         //ma dopisać do pliku "results.txt" liczbę 5
 
-        Calculator spammingCalculator = factory.getSpammingCalculator(5);
+        Calculator spammingCalculator = factory.getSpammingCalculator(100);
         spammingCalculator.add(2, 5);
 
        //ma 5x drukować: 2 + 3 = 5
-        */
+
     }
 }

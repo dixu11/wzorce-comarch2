@@ -11,9 +11,7 @@ public class Demo {
     public static void main(String[] args) throws IOException {
 //        ObjectInputStream ois =new ObjectInputStream(new ObjectInputStream(new FileInputStream("file.bin"))) ;
 //        ois.close();
-
-
-        TagGenerator fullHtmlGenerator = new BodyDecorator(new BaseDecorator());
+        TagGenerator fullHtmlGenerator = new BodyDecorator(new BodyDecorator(new BaseDecorator()));
         Html html = new Html();
         fullHtmlGenerator.addTags(html);
         System.out.println(html.getHtml());
