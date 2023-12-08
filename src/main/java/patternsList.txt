@@ -24,7 +24,8 @@
                 Strategia - umożliwia zmienianie działania metody obiektu przez przeniesienie tego działania do obiektów strategii i
                             możemy przełączyć się między nimi przestawiając te strategie w runtime
              Stan (obiektowy), - kilka alternatywnych implementacji między którymi możemy przełączyć obiekt w reakcji na zdarzenia
-        Łańcuch zobowiązań/odpowiedzialności (obiektowy),
+            Łańcuch  (obiektowy),   - pojedyncze serwisy są wiązane w łańcuch i przez niego przechodzi zadanie. Serwisy rozpoznają
+                                        czy mają coś do zrobienia jeśli to to robią i przesyłają zadanie dalej
                  Interpreter (klasowy), traktowanie tekstu jako komend do wykonania pewnych operacji
         Mediator (obiektowy),
         Pamiątka/Memento (ang. Memento) (obiektowy),
