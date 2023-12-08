@@ -29,7 +29,8 @@
                  Interpreter (klasowy), traktowanie tekstu jako komend do wykonania pewnych operacji
                 Mediator (obiektowy), aby uniknąć nadmiaru bezpośrednich zależności między komunikującymi się obiektami - komunikację
                                 przenosimy do obiektu Mediatora, przez niego będą zwracać się do siebie.
-        Pamiątka/Memento (ang. Memento) (obiektowy),
+                Pamiątka/Memento - klasyczne 'cofnij zmiany' i przywróć. Uwaga nie nie udostępnianie stanu obiektu - zarządza Caretaker.
+                                    Pamiątki są obiektami immutable
             Obserwator (obiektowy)  - obiekt generujący dane (zdazenia) informuje o nich zainteresowanych klientów
         Odwiedzający/Wizytator (ang. visitor) (obiektowy),
         Polecenie (obiektowy),

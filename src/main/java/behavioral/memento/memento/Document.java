@@ -30,9 +30,9 @@ public class Document {
     }
 
      void readMemento(DocumentMemento documentMemento) {
-        text = documentMemento.getText();
-        size = documentMemento.getSize();
-        color = documentMemento.getColor();
+        text = documentMemento.text();
+        size = documentMemento.size();
+        color = documentMemento.color();
     }
 
     @Override
