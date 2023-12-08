@@ -1,6 +1,8 @@
 package structural.decoratorExample;
 
-import structural.decoratorExample.html.AbstractTagDecorator;
+import structural.decoratorExample.html.BaseDecorator;
+import structural.decoratorExample.html.BodyDecorator;
+import structural.decoratorExample.html.Html;
 import structural.decoratorExample.html.TagGenerator;
 
 import java.io.*;
@@ -11,10 +13,9 @@ public class Demo {
 //        ois.close();
 
 
-        //TagGenerator baseTagGenerator = new AbstractTagDecorator();
-
-
-//        baseTagGenerator.addTags();
-//        System.out.println(baseTagGenerator);
+        TagGenerator fullHtmlGenerator = new BodyDecorator(new BaseDecorator());
+        Html html = new Html();
+        fullHtmlGenerator.addTags(html);
+        System.out.println(html.getHtml());
     }
 }
