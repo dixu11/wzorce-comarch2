@@ -32,8 +32,17 @@
                 Pamiątka/Memento - klasyczne 'cofnij zmiany' i przywróć. Uwaga nie nie udostępnianie stanu obiektu - zarządza Caretaker.
                                     Pamiątki są obiektami immutable
             Obserwator (obiektowy)  - obiekt generujący dane (zdazenia) informuje o nich zainteresowanych klientów
-        Odwiedzający/Wizytator (ang. visitor) (obiektowy),
-        Polecenie (obiektowy),
+            Polecenie (obiektowy), - opakowujemy wywołanie metody w osobny obiekt, dizęki czemu:
+                                   - odseparowujemy obiekty
+                                   - archiwizowanie poleceń
+                                   - odsunięcie w czasie
+                                   - możliwość przywracania
+                                   - wysyłanie na kolejki i wątki
+
+            Odwiedzający/Wizytator (ang. visitor) - wzorzec umożliwiający "podwójne dziedziczenie" (double dispatch),
+                                przydaje się w sytuacjach w których planujemy do małej ilości obiektów dodawać
+                                bardzo dużo nowych operacji w wygodny sposób bez ciągłego modyfikowania ich klasy.
+
 
 
 
