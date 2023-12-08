@@ -15,7 +15,7 @@ public class DemoTree {
       jesień - liście opadają
         */
 
-       /*
+
        MyTree tree = new MyTree();
         tree.show(); // wyświetla "drzewo nie ma liści"
         tree.setSeason(new SpringTreeStrategy());
@@ -24,6 +24,6 @@ public class DemoTree {
         tree.show(); // wyświetla "drzewo zrzuca owoce"
         tree.setSeason(new AutumnTreeStrategy());
         tree.show(); // wyświetla "liście opadają"
-        */
+
     }
 }

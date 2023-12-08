@@ -17,10 +17,12 @@
         Fasada (obiektowy),uproszczenie korzystania ze skomplikowanego systemu (wiele obiektów)
 
     wzorce czynnościowe/operacyjne:
-        Iterator (obiektowy),
-        Metoda szablonowa (ang. template method) (klasowy),
-        Stan (obiektowy),
+        Iterator (obiektowy), pozwala traktować obiekt jako zbiór obiektów które możemy przeglądać jeden po drugim aż do końca
+        Metoda szablonowa (ang. template method), pozwala nam przygotować abstrakcyjną klasę bazową z ogólnym schematem
+                                                                algorytmu który odnosi się do abstrakcyjnych metod
+                           dzięki czemu możemy nadpisywać zmienne kroki algorytmu na różne sposoby w jego kolejnych implementacjach
         Strategia (obiektowy),
+        Stan (obiektowy),
         Łańcuch zobowiązań/odpowiedzialności (obiektowy),
                  Interpreter (klasowy), traktowanie tekstu jako komend do wykonania pewnych operacji
         Mediator (obiektowy),
