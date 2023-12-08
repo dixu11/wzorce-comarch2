@@ -16,5 +16,11 @@ public class Demo {
         taxiVisitor.visit(bronzeCard);
         taxiVisitor.visit(silverCard);
         taxiVisitor.visit(goldCard);
+
+        //bronzeCard.accept(spaVisitor);
+        System.out.println("-------------");
+        CinemaVisitor cinemaVisitor = new CinemaVisitor();
+        silverCard.accept(cinemaVisitor);
+        cinemaVisitor.visit(silverCard);
     }
 }
